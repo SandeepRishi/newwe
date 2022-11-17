@@ -1,0 +1,92 @@
+body {
+    background: url("https://images.pexels.com/photos/168417/pexels-photo-168417.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    height: 120px;
+    width: 100%;
+    animation: sandeep 2.5s linear infinite;
+
+
+}
+
+@keyframes sandeep {
+    form {
+        background-position: 60%;
+
+    }
+
+    to {
+        background-position: 100%;
+    }
+}
+
+.bar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.bar li {
+    font-size: 1.4vw;
+
+    list-style: none;
+    text-align: center;
+    justify-items: space-around;
+
+}
+
+.bar li a {
+    color: skyblue;
+    text-decoration: none;
+
+}
+
+.Open {
+    display: grid;
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+#Anim1 {
+    margin: 0;
+    position: relative;
+    font: optional;
+    font-size: 7vh;
+    letter-spacing: 1vw;
+    color: white;
+    background-size: auto 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: new 5s linear infinite;
+
+
+}
+@keyframes new{
+    0%{
+        background-color: red,white;
+
+    }
+    50%{
+        background-color: white;
+
+    }
+    80%{
+        background-color:red;
+    }
+}
+
